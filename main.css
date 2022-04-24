@@ -1,3 +1,89 @@
+/*kleuren: Groen: #9DED40  paars: #8F40ED */
 *{
-    background-color: ;
+    margin: 0;
+    padding: 0;
 }
+p{
+    color:#9DED40;
+}
+.mainbox{
+    height: 100vh;
+   background-image: radial-gradient(circle at bottom, 
+   #E2F9C6, #EDE1FC, #B682F3,#6E15D5, #220642);
+}
+.maintext{ 
+    
+    
+}
+.centertext{
+
+}
+
+.knop{
+    color: #9DED40;
+    padding: 10px 10px; /*nog even mee spelen om te kijken wat mooi is */
+    background: transparent;
+    border: 1px solid #9DED40; /*of mischien gewoon none border?*/
+    border-radius: 20px;
+    outline: none; /*de ruimte om de border heen*/
+    width: 10em;
+}
+
+.ufo img{
+    width: 50px;
+    animation: ufo 7s linear infinite;
+}
+
+.ufo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+
+@keyframes ufo{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+/* delay per img invoegen, kan ook met nth child ipv. alles een id of class geven. */
+.ufo img:nth-child(2){
+    animation-delay: 1s;
+    width: 20px;
+}
+.ufo img:nth-child(3){
+    animation-delay: 3s;
+    width: 30px;
+}
+.ufo img:nth-child(4){
+    animation-delay: 6s;
+    width: 50px;
+}
+.ufo img:nth-child(5){
+    animation-delay: 4s;
+    width: 15px;
+}
+.ufo img:nth-child(6){
+    animation-delay: 2s;
+    width: 45px;
+}
+
+
+/*Notes to self: oke uhm wat ga ik doen hiermee? ik denk een onzichtbare/transparante navigatie balk voor de verandering ofzo?
+en dan iets in het midden nog. tekst? en dan nog wat met jquery toevoegen. 
+uhm wat nog meer? misschien andere plaatjes dat t niet alleen dezelfde ufo's zijn. 
+goede font uitzoeken. en die whitespace links en onder fixen! */
