@@ -8,6 +8,13 @@ p{
 }
                                     /*navigatie*/
 header{
+    height: 50px;
+    background-color: #220642;
+}
+nav{
+    width: 100vw;
+    float: right;
+    margin: 0 0 1em 0;
     background-color: #220642;
 }
 nav ul{
@@ -26,7 +33,9 @@ nav li a{
     font-size: 17px;
 }
 nav li a{
+    height:50px;
     border: 2px solid #9DED40;
+    font-size: small;
 }
 nav li a:hover{
     border: 2px solid #220642;
@@ -45,8 +54,7 @@ footer{
                                     /*Home*/
 .mainbox{
     height: 100vh;
-   background-image: radial-gradient(circle at bottom, 
-   #E2F9C6, #EDE1FC, #B682F3,#6E15D5, #220642);
+    background-image: radial-gradient(circle at bottom, #E2F9C6, #EDE1FC, #B682F3,#6E15D5, #220642);
 }
 .maintext{ 
     
@@ -68,13 +76,13 @@ footer{
 
 
 /*vallende sterren animatie*/
-.ufo img{
+.ster img{
     width: 50px;
     opacity: 0;
-    animation: ufo 7s linear infinite;
+    animation: ster 7s linear infinite;
 }
 
-.ufo{
+.ster{
     width: 100%;
     display: flex;
     align-items: center;
@@ -83,7 +91,7 @@ footer{
     bottom: 0;
 }
 
-@keyframes ufo{
+@keyframes ster{
     0%{
         transform: translateY(-100vh);
         opacity: 0;
@@ -91,7 +99,7 @@ footer{
     50%{
         opacity: 1;
     }
-    70%{
+    75%{
         opacity: 1;
     }
     100%{
@@ -99,35 +107,35 @@ footer{
         opacity: 0;
     }
 }
-.ufo img:nth-child(2){
+.ster img:nth-child(2){
     animation-delay: 2.5s;
     width: 30px;
 }
-.ufo img:nth-child(3){
+.ster img:nth-child(3){
     animation-delay: 3s;
     width: 40px;
 }
-.ufo img:nth-child(4){
+.ster img:nth-child(4){
     animation-delay: 6s;
     width: 60px;
 }
-.ufo img:nth-child(5){
+.ster img:nth-child(5){
     animation-delay: 4.5s;
     width: 25px;
 }
-.ufo img:nth-child(6){
+.ster img:nth-child(6){
     animation-delay: 2s;
     width: 55px;
 }
-.ufo img:nth-child(7){
+.ster img:nth-child(7){
     animation-delay: 3.5s;
     width: 25px;
 }
-.ufo img:nth-child(8){
+.ster img:nth-child(8){
     animation-delay: 7s;
     width: 70px;
 }
-.ufo img:nth-child(9){
+.ster img:nth-child(9){
     animation-delay: 1s;
     width: 20px;
 }
