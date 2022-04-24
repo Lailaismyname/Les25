@@ -6,18 +6,43 @@
 p{
     color:#9DED40;
 }
+                                    /*navigatie*/
 header{
-
+    background-color: #220642;
 }
-nav{
-
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
+nav li a{
+    display: block;
+    width: 25%;
+    float: right;
+    color:#9DED40;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav li a{
+    border: 2px solid #9DED40;
+}
+nav li a:hover{
+    border: 2px solid #220642;
+    background-color: #9DED40;
+    color:#220642;
+    text-decoration: none;
+}
+
+
+                                    /*footer*/
 footer{
     display: flex;
     
-    
-}
 
+}
+                                    /*Home*/
 .mainbox{
     height: 100vh;
    background-image: radial-gradient(circle at bottom, 
@@ -28,7 +53,7 @@ footer{
     
 }
 .centertext{
-
+    float: left;
 }
 
 .knop{
@@ -108,7 +133,8 @@ footer{
 }
 /*eind vallende sterren animatie*/
 
-/*Notes to self: oke uhm wat ga ik doen hiermee? ik denk een onzichtbare/transparante navigatie balk voor de verandering ofzo?
-en dan iets in het midden nog. tekst? en dan nog wat met jquery toevoegen. 
-uhm wat nog meer? misschien andere plaatjes dat t niet alleen dezelfde ufo's zijn. 
-goede font uitzoeken. en die whitespace links en onder fixen! */
+/*Notes to self: oke ik moet die navigatie balk ff goed fixen, die main container ook weer goed zetten. 
+Dan iets van content verzinnen om op de pagina te zetten met jquery. ik zit te denken aan een stuk intro tekst en dan dat in en uit t scherm dmv. een knop ofzo. 
+footer maken. met dead links naar social media ofzo? met van die logos enzo. 
+en die html door de validator halen!
+ */
