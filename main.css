@@ -49,7 +49,7 @@ nav li a:hover{
                                     /*footer*/
 footer{
     height: 70px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0px;
     background-color: #220642;
@@ -62,13 +62,14 @@ footer{
     padding: 0;
 }
 .maintext{
-    margin:50% 50%;
+    margin:0 50%;
 }
 .centertext{
     float: left;
 }
 
 .knop{
+    margin: 10% 50%;
     color: #9DED40;
     padding: 10px 10px; /*nog even mee spelen om te kijken wat mooi is */
     background: transparent;
@@ -76,6 +77,11 @@ footer{
     border-radius: 20px;
     outline: none; /*de ruimte om de border heen*/
     width: 10em;
+}
+.knop:active{
+    background-color: #9DED40;
+    color:#220642;
+    border: 1px solid #220642;
 }
 
 
@@ -99,6 +105,9 @@ footer{
     0%{
         transform: translateY(-100vh);
         opacity: 0;
+    }
+    25%{
+        opacity:1;
     }
     50%{
         opacity: 1;

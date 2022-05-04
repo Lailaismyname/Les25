@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Projecten</a></li>
+        <li><a href="#">Over mij</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
   <div class="mainbox container-sm">
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Projecten</a></li>
-          <li><a href="#">Over mij</a></li>
-          <li><a href="#">Home</a></li>
-        </ul>
-      </nav>
-    </header>
-  
-  
-    <div class="maintext col-3">
-          <h2 class="titel">Welkom</h2>
-          <p class="centertext col-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, maiores itaque? Quaerat corrupti, nesciunt soluta sit debitis odio illum, harum dolores iure placeat architecto exercitationem commodi! Quo nihil repudiandae at. Deserunt vitae laborum illum facere est totam in officia.</p>
-          <button class="knop" type="button">test tekst</button>
+    <button class="knop" type="button">Push me!</button>
+    <div id="hanskazan" class="maintext col-3">
+          <h2 class="titel">Hans Kazàn</h2>
+          <p class="centertext col-12">Kazàn werd geboren als Hans Mulders. Op zijn negende kreeg hij een goocheldoos van Sinterklaas en vanaf die tijd is hij met goochelen bezig. Hij gaf zich op bij een goochelclub en moest een artiestennaam opgeven. Hij bedacht 'ka' van Fred Kaps, 'zan' van de Italiaanse goochelaar Remo Inzani en het accent op de tweede a om niet op een hondennaam te lijken. Sindsdien heeft hij zich altijd van deze naam bediend, ook op school. Omdat hij met zijn beide ouders in onmin is gevallen, heeft hij zijn achternaam officieel laten wijzigen in Kazàn.</p>
         </div>  
         
           
@@ -41,6 +41,7 @@
             
           </div>
 
+        </div>
 
           
           
@@ -50,11 +51,21 @@
           </footer>
           
           
-        </div>
-        
+          <script src="http://code.jquery.com/jquery-3.1.0.min.js">
+          </script>
+          <script type="text/javascript">
+
+          $("button").click(function(){
+          $("#hanskazan").fadeToggle();
+          });
+
+
+          </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <noscript>
 Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
 </noscript>
 </body>
 </html>
+
+<!--onmouseover & onclick-->
