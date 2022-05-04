@@ -2,9 +2,13 @@
 *{
     margin: 0;
     padding: 0;
+    color:#9DED40;
+}
+body{
+    background-image: radial-gradient(circle at bottom, #E2F9C6, #B682F3,#6E15D5, #220642);
+    background-repeat: no-repeat;
 }
 p{
-    color:#9DED40;
 }
                                     /*navigatie*/
 header{
@@ -12,53 +16,53 @@ header{
     background-color: #220642;
 }
 nav{
-    width: 100vw;
-    float: right;
-    margin: 0 0 1em 0;
+    width:100%;
     background-color: #220642;
 }
 nav ul{
-    margin: 0;
     padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 nav li a{
-    display: block;
     width: 25%;
+    display:block;
     float: right;
     color:#9DED40;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
-    font-size: 17px;
-}
-nav li a{
+    font-size: small;
     height:50px;
     border: 2px solid #9DED40;
-    font-size: small;
+}
+nav li{
+
 }
 nav li a:hover{
     border: 2px solid #220642;
     background-color: #9DED40;
     color:#220642;
-    text-decoration: none;
 }
 
 
                                     /*footer*/
 footer{
-    display: flex;
-    
-
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: #220642;
+    text-align: center;
 }
                                     /*Home*/
 .mainbox{
     height: 100vh;
-    background-image: radial-gradient(circle at bottom, #E2F9C6, #EDE1FC, #B682F3,#6E15D5, #220642);
+    margin: 0;
+    padding: 0;
 }
-.maintext{ 
-    
-    
+.maintext{
+    margin:50% 50%;
 }
 .centertext{
     float: left;
@@ -140,6 +144,8 @@ footer{
     width: 20px;
 }
 /*eind vallende sterren animatie*/
+
+/*ufo animatie
 
 /*Notes to self: oke ik moet die navigatie balk ff goed fixen, die main container ook weer goed zetten. 
 Dan iets van content verzinnen om op de pagina te zetten met jquery. ik zit te denken aan een stuk intro tekst en dan dat in en uit t scherm dmv. een knop ofzo. 
