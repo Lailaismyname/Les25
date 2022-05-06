@@ -75,8 +75,8 @@ footer{
     margin:0 50%;
     width: 60%;
 }
-.centertext, .titel{
-    text-shadow: 2px 2px #220642;
+.centertext, .titel, .knop{
+    text-shadow: 1px 2px #170031;
 }
 .titel{
     font-weight: bolder;
@@ -185,7 +185,7 @@ footer{
             width: 40%;
         }
         .centertext, .titel{
-            text-shadow: 1px 2px #220642;
+            text-shadow: 1px 2px #0a0014;
         }
         nav li a{
             font-size: xx-small;
@@ -200,18 +200,18 @@ footer{
             width: 35%;
         }
     }
-    @media only screen and (min-width: 1200px){
+    @media only screen and (min-width: 992px){
         .maintext{
             font-size: large;
             width:50%;
         }
         .knop{
             margin: 2% 50%;
-            width: 250px;
-            height:100px;
-            font-size: large;
+            width:15%;
+
+            font-size:medium;
         }
         #hansie{
-            width: 50%;
+            width: 30%;
         }
     }
