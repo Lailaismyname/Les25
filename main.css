@@ -98,13 +98,15 @@ footer{
     outline: none; 
     width: 10em;
 }
+.knop:hover{
+    background-color: #220642;
+}
 .knop:active{
     background-color: #9DED40;
     color:#220642;
     text-shadow: none;
     border: 1px solid #220642;
 }
-
 
 /*vallende sterren animatie*/
 .ster img{
