@@ -101,6 +101,7 @@ footer{
 .knop:active{
     background-color: #9DED40;
     color:#220642;
+    text-shadow: none;
     border: 1px solid #220642;
 }
 
