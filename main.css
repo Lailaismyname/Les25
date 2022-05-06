@@ -80,6 +80,7 @@ footer{
 }
 .titel{
     font-weight: bolder;
+    padding-bottom: 5%;
 }
 #hansie{
     width: 60%;
@@ -210,4 +211,3 @@ footer{
             font-size: xx-large;
         }
     }
-    
