@@ -206,9 +206,12 @@ footer{
             width:50%;
         }
         .knop{
-            margin: 5% 50%;
+            margin: 2% 50%;
             width: 250px;
             height:100px;
-            font-size: xx-large;
+            font-size: large;
+        }
+        #hansie{
+            width: 50%;
         }
     }
