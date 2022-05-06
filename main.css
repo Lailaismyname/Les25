@@ -54,6 +54,7 @@ footer{
     bottom: 0px;
     background-color: #220642;
     text-align: center;
+    border: 2px solid #9DED40;
 }
                                     /*Home*/
 .mainbox{
@@ -63,19 +64,25 @@ footer{
 }
 .maintext{
     margin:0 50%;
+    width: 60%;
 }
-.centertext{
+.centertext, .titel{
+    text-shadow: 2px 2px #220642;
+}
+#hansie{
+    width: 100px;
+    border-radius: 50%;
     float: left;
+    padding: 5px;
 }
-
 .knop{
     margin: 10% 50%;
     color: #9DED40;
-    padding: 10px 10px; /*nog even mee spelen om te kijken wat mooi is */
+    padding: 10px 10px; 
     background: transparent;
-    border: 1px solid #9DED40; /*of mischien gewoon none border?*/
+    border: 1px solid #9DED40; 
     border-radius: 20px;
-    outline: none; /*de ruimte om de border heen*/
+    outline: none; 
     width: 10em;
 }
 .knop:active{
@@ -154,10 +161,27 @@ footer{
 }
 /*eind vallende sterren animatie*/
 
-/*ufo animatie
-
-/*Notes to self: oke ik moet die navigatie balk ff goed fixen, die main container ook weer goed zetten. 
-Dan iets van content verzinnen om op de pagina te zetten met jquery. ik zit te denken aan een stuk intro tekst en dan dat in en uit t scherm dmv. een knop ofzo. 
-footer maken. met dead links naar social media ofzo? met van die logos enzo. 
-en die html door de validator halen!
- */
+/*mediaqueries*/
+    @media only screen and (max-width: 600px){
+        .mainbox{
+            overflow: hidden;
+        }
+        .maintext{
+            font-size: x-small;
+            margin:0 50%;
+            width: 40%;
+        }
+        .centertext, .titel{
+            text-shadow: 2px 2px #220642;
+        }
+    }
+    @media only screen and (min-width: 600px){
+        .mainbox{
+            overflow-x: hidden;
+        }
+        .maintext{
+            font-size: small;
+            width: 35%;
+        }
+    }
+    
