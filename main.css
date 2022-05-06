@@ -1,8 +1,17 @@
 /*kleuren: Groen: #9DED40  paars: #8F40ED */
+/*Geimporteerde fonts: 
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Zen Loop', cursive;
+*/
 *{
     margin: 0;
     padding: 0;
     color:#9DED40;
+    font-family: 'Cinzel Decorative', cursive;
 }
 body{
     background-image: radial-gradient(circle at bottom, #E2F9C6, #B682F3,#6E15D5, #220642);
@@ -69,8 +78,11 @@ footer{
 .centertext, .titel{
     text-shadow: 2px 2px #220642;
 }
+.titel{
+    font-weight: bolder;
+}
 #hansie{
-    width: 100px;
+    width: 60%;
     border-radius: 50%;
     float: left;
     padding: 5px;
@@ -167,12 +179,15 @@ footer{
             overflow: hidden;
         }
         .maintext{
-            font-size: x-small;
+            font-size: xx-small;
             margin:0 50%;
             width: 40%;
         }
         .centertext, .titel{
             text-shadow: 2px 2px #220642;
+        }
+        nav li a{
+            font-size: xx-small;
         }
     }
     @media only screen and (min-width: 600px){
@@ -182,6 +197,17 @@ footer{
         .maintext{
             font-size: small;
             width: 35%;
+        }
+    }
+    @media only screen and (min-width: 1200px){
+        .maintext{
+            font-size: xx-large;
+            width:50%
+        }
+        .knop{
+            width: 250px;
+            height:100px;
+            font-size: xx-large;
         }
     }
     
