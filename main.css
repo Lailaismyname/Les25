@@ -202,7 +202,7 @@ footer{
             font-size: xx-small;
         }
         #heks{
-            width: 50px;
+            width: 60%;
         }
     }
     @media only screen and (min-width: 600px){
@@ -212,6 +212,9 @@ footer{
         .maintext{
             font-size: small;
             width: 35%;
+        }
+        #heks{
+            width: 40%;
         }
     }
     @media only screen and (min-width: 992px){
@@ -226,6 +229,6 @@ footer{
             font-size:medium;
         }
         #heks{
-            width: 30%;
+            width: 50%;
         }
     }
